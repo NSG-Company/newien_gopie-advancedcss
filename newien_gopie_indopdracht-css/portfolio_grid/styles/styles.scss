@@ -1,0 +1,67 @@
+.background {
+    background: #c3cfe2;
+}
+
+
+
+.container::after{
+
+    background-color: black;
+    height: 100%;
+}
+
+
+
+
+.container {
+    display: grid;
+    height: 100%;    
+}
+
+__1 {
+    grid-area: 1;
+}
+
+__2 {
+    grid-area: 2;
+}
+
+__3 {
+    grid-area: 3;
+}
+
+__4 {
+    grid-area: 4;
+}
+
+__5 {
+    grid-area: 5;
+}
+
+__6 {
+    grid-area: 6;
+}
+
+__7 {
+    grid-area: 7;
+}
+
+@media screen and (max-width: 450px) {
+   
+    
+  }
+
+  @media screen and (max-width: 980px) {
+    
+    
+  }
+
+
+
+
+
+
+
+
+
+  

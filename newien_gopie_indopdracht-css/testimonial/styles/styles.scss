@@ -1,0 +1,40 @@
+.background {
+    background: #c3cfe2;
+}
+
+.card__body{
+    width: 250px;
+    height: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid rgb(236, 223, 223);
+    border-radius: 25px;
+    float: left;
+   background-color: #fff;
+   box-shadow: 1px 1px 1px 1px rgb(131, 121, 121);
+    &__copy{
+    text-align: initial;
+    font-style: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+    &__photo{
+        width:100%;
+        display: flex;
+        align-self: start;
+        border-end-end-radius: 50%;
+        box-shadow: lavender;
+        align-self: center ;
+    }
+}
+.footer__footer {
+    display: flex-start;
+        width: 250px;
+        height: 90px;
+        margin: 0;
+        padding: -25;
+        text-align: center;
+        background: #686de0;
+        border-radius: 25%;
+       
+    }
